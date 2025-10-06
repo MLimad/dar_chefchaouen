@@ -653,15 +653,19 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	.logoMi {
 		position:relative;
 	}
-.logoMi img{
-	position:absolute;
-	top:11px;
-	left:60px;
-	z-index:99999;
-	background-color: #f8f8f8;
-	padding: 5px;
+	
+	.logoMi img {
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    TRANSFORM: TRANSLATEX(-50%);
+    z-index: 99999;
+    background-color: #f8f8f8;
+    padding: 5px;
     border-radius: 5px;
 }
+
+
 
 /* Printing */
 
